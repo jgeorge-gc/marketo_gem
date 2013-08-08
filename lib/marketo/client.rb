@@ -192,10 +192,6 @@ module Grabcad
         list_operation(list_id_key(list_id), ListOperationType::IS_MEMBER_OF, lead.id)[:success_list_operation][:result][:status_list][:lead_status][:status]
       end
 
-      def enable_soap_debugging
-        @client.pretty_print_xml = true
-      end
-
       def log_exception(exp)
         if @logger 
           @logger.warn(exp)
