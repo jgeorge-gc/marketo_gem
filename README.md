@@ -4,4 +4,4 @@ Fork of the original Rapleaf marketo gem to support updates to the Marketo API a
 
 This is still in experimental stages - use at your own risk until it becomes more stable!
 
-Not under active development since 2013
+Not under active development since 2013.
